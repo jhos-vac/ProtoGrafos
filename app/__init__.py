@@ -1,6 +1,6 @@
 from flask import Flask
 from flask_restx import Api
-from app.main import app
+from app.routs.routs import app
 
 app = Flask(__name__)
 api = Api(app)
